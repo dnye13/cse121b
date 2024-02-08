@@ -51,7 +51,7 @@ GetTotalDue.addEventListener("click", getTotal );
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 document.getElementById('array').innerHTML = numbers;
 
 /* Output Odds Only Array */
