@@ -26,7 +26,7 @@ document.getElementById('photo').alt = myProfile.name;
 /* Favorite Foods List*/
 const favoriteFoods = document.getElementById('favorite-foods');
 myProfile.favoriteFoods.forEach(food => {
-    let newElement = document.createElement('ul');
+    let newElement = document.createElement('li');
     newElement.textContent = food;
     favoriteFoods.appendChild(newElement);
 })
@@ -34,7 +34,7 @@ myProfile.favoriteFoods.forEach(food => {
 /* Hobbies List */
 const hobbies = document.getElementById('hobbies');
 myProfile.hobbies.forEach(hobby => {
-    let hobbyList = document.createElement('ul');
+    let hobbyList = document.createElement('li');
     hobbyList.textContent = hobby;
     hobbies.appendChild(hobbyList);
 })
