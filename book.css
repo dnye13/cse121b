@@ -10,22 +10,22 @@ body {
     padding: 20px;
 }
 
-.filters {
+.search-container {
     margin-bottom: 20px;
 }
 
 input[type="text"] {
-    width: 150px;
+    width: 300px;
     margin-right: 10px;
 }
 
-.movies-container {
+.books-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
 }
 
-.movie-card {
+.book-card {
     border: 1px solid #ccc;
     padding: 10px;
 }
